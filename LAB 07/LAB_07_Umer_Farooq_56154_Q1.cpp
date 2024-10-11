@@ -103,7 +103,7 @@ if (head->data == pos)
     return;
   }
   
-   temp->prev->next = temp->next;
+  temp->prev->next = temp->next;
   temp->next->prev = temp->prev;
         
 }
