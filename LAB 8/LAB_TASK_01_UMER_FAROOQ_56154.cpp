@@ -52,6 +52,6 @@ int main() {
     InsertAtTail(head, 30);
     Display(head);
 
-
+    system("pause");
     return 0;
 }

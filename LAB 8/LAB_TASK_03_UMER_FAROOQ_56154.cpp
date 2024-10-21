@@ -114,5 +114,7 @@ int main() {
     Delete(head, 10);
     Display(head);
 
+    system("pause");
+
     return 0;
 }

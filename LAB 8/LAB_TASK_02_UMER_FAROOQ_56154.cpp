@@ -71,6 +71,6 @@ int main() {
     Display(head);
 
    
-
+    system("pause");
     return 0;
 }

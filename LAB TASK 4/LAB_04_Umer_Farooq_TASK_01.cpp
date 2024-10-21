@@ -17,7 +17,7 @@ int linearSearch(int arr[], int size, int target)
     }
     //If the target is not found, return -1
     return -1;
-}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 
 int main()
 {
