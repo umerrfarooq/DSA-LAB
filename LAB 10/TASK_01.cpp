@@ -97,7 +97,7 @@ void PostOrderTraversal(Node* root) {
     if (root == NULL) {
         return;
     }
-    PostOrderTraversal(root->left);
+    PostOrderTraversal(root->left); 
     PostOrderTraversal(root->right);
     cout << root->data << " ";
 }
