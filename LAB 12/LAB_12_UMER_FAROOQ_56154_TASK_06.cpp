@@ -23,7 +23,7 @@ int partition(vector<int> &arr, int low, int high)
             swap(arr[i], arr[j]);
             i++;
         }
-    }
+    } 
     swap(arr[low], arr[i - 1]);
     return i - 1;
 }
